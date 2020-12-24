@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value = "weather"/>    //指定数据库名
+    <version value = "3"/> //数据库版本号
+    <!--将三个实体类添加到映射列表中-->
+    <list>
+        <mapping class = "com.example.myapplication3.db.Province"/>
+        <mapping class = "com.example.myapplication3.db.City"/>
+        <mapping class = "com.example.myapplication3.db.County"/>
+    </list>
+</litepal>
